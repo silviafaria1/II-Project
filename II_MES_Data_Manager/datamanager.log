@@ -1,0 +1,741 @@
+mai 29, 2020 10:03:51 DA MANHÃ datamanager.DataManager initLogger
+INFO: Logger handlers: 2
+mai 29, 2020 10:04:03 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:04 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: waiting
+mai 29, 2020 10:04:04 DA MANHÃ datamanager.DataManager sendWaitingQueue
+INFO: Generated Reply:
+#### BEGIN ####
+<WaitingQueue>
+</WaitingQueue>
+#### END ####
+mai 29, 2020 10:04:04 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:04 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: waiting
+mai 29, 2020 10:04:04 DA MANHÃ datamanager.DataManager sendWaitingQueue
+INFO: Generated Reply:
+#### BEGIN ####
+<WaitingQueue>
+</WaitingQueue>
+#### END ####
+mai 29, 2020 10:04:05 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:05 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: waiting
+mai 29, 2020 10:04:05 DA MANHÃ datamanager.DataManager sendWaitingQueue
+INFO: Generated Reply:
+#### BEGIN ####
+<WaitingQueue>
+</WaitingQueue>
+#### END ####
+mai 29, 2020 10:04:07 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:07 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:07 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:07 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:11 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:11 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:11 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:11 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:16 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:16 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:16 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:16 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:21 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:21 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:21 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:21 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: beingProcessed
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager sendCurrentQueue
+INFO: Generated Reply:
+#### BEGIN ####
+<CurrentQueue>
+</CurrentQueue>
+#### END ####
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: beingProcessed
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager sendCurrentQueue
+INFO: Generated Reply:
+#### BEGIN ####
+<CurrentQueue>
+</CurrentQueue>
+#### END ####
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:04:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:25 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: beingProcessed
+mai 29, 2020 10:04:25 DA MANHÃ datamanager.DataManager sendCurrentQueue
+INFO: Generated Reply:
+#### BEGIN ####
+<CurrentQueue>
+</CurrentQueue>
+#### END ####
+mai 29, 2020 10:04:26 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:26 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:04:26 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:26 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:04:26 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:26 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:04:28 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:28 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:28 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:28 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:31 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:31 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:04:31 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:31 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:04:31 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:31 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:04:33 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:33 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:33 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:33 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:36 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:36 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:04:36 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:36 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:04:36 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:36 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:04:38 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:38 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:38 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:38 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:41 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:41 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:04:41 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:41 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:04:41 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:41 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:04:43 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:43 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:43 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:43 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:46 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:46 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:04:46 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:46 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:04:46 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:46 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:04:48 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:48 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:48 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:48 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:50 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:50 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:04:50 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:04:50 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:04:51 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="54" type="P2"/>
+#### END ####
+mai 29, 2020 10:04:51 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:04:51 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:51 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:04:51 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:51 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:04:51 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:51 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:04:54 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:54 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:54 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:54 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:56 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:56 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:04:56 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:04:56 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:04:56 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="54" type="P9"/>
+#### END ####
+mai 29, 2020 10:04:56 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:04:56 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:56 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:04:56 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:04:56 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 2
+mai 29, 2020 10:04:56 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:04:57 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:57 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:04:57 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:04:57 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:04:58 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:58 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:04:58 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:58 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:04:58 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:58 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:04:59 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:04:59 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:04:59 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:04:59 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:04:59 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="54" type="P9"/>
+#### END ####
+mai 29, 2020 10:04:59 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:04:59 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:04:59 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:04:59 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:04:59 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 9
+mai 29, 2020 10:04:59 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:01 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:01 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:05:01 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:01 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:05:01 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:01 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:05:02 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:02 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:02 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:02 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:02 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="53" type="P9"/>
+#### END ####
+mai 29, 2020 10:05:02 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:02 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:02 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:05:02 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:05:02 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:05:04 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:04 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:04 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:04 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 9
+mai 29, 2020 10:05:04 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:06 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:06 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:05:06 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:06 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:05:06 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:06 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:05:07 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:07 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:07 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:07 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:07 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="52" type="P9"/>
+#### END ####
+mai 29, 2020 10:05:07 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:07 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:07 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:05:07 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:05:07 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:05:08 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:08 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:08 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:08 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 9
+mai 29, 2020 10:05:08 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:10 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:10 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:10 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:10 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:10 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="51" type="P9"/>
+#### END ####
+mai 29, 2020 10:05:10 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:11 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:11 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:11 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:11 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 9
+mai 29, 2020 10:05:11 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:11 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:11 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:05:11 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:05:11 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="50" type="P9"/>
+#### END ####
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:13 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:13 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 9
+mai 29, 2020 10:05:13 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="49" type="P9"/>
+#### END ####
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:16 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:05:17 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:17 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:05:17 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:05:17 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:05:17 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:17 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:17 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:17 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 9
+mai 29, 2020 10:05:17 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:20 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:20 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:20 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:20 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:20 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="48" type="P9"/>
+#### END ####
+mai 29, 2020 10:05:20 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:21 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:21 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:05:21 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:05:21 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:05:22 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:22 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:22 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:22 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 9
+mai 29, 2020 10:05:22 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="54" type="P6"/>
+#### END ####
+mai 29, 2020 10:05:24 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:26 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:26 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:26 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:26 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 9
+mai 29, 2020 10:05:26 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:26 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:26 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:05:26 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:05:26 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="54" type="P6"/>
+#### END ####
+mai 29, 2020 10:05:28 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:31 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:31 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:31 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:31 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 6
+mai 29, 2020 10:05:31 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:31 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:31 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:05:31 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:05:31 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="53" type="P6"/>
+#### END ####
+mai 29, 2020 10:05:33 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:34 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:34 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:34 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:34 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 6
+mai 29, 2020 10:05:34 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: MachinesStats
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: UnloadZonesStats
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: OrdersStats
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Request_Stores
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: ENTRY
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINE: Filtered Store Request
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager handleStoreRequest
+INFO: Generated Reply:
+#### BEGIN ####
+<Current_Stores quantity="52" type="P6"/>
+#### END ####
+mai 29, 2020 10:05:36 DA MANHÃ datamanager.DataManager handleStoreRequest
+FINER: RETURN
+mai 29, 2020 10:05:37 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62916
+mai 29, 2020 10:05:37 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: StorageOut
+mai 29, 2020 10:05:37 DA MANHÃ DataManager handleLoadRequest
+FINER: ENTRY
+mai 29, 2020 10:05:37 DA MANHÃ datamanager.DataManager handleUnloadRequest
+INFO: Type unloaded: 6
+mai 29, 2020 10:05:37 DA MANHÃ DataManager handleLoadRequest
+FINER: RETURN
+mai 29, 2020 10:05:37 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:37 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:05:37 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:05:37 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
+mai 29, 2020 10:05:41 DA MANHÃ datamanager.DataManager run
+INFO: Message received from /192.168.1.102:62915
+mai 29, 2020 10:05:41 DA MANHÃ datamanager.DataManager run
+INFO: Root element name: Statistics
+mai 29, 2020 10:05:41 DA MANHÃ DataManager handleOrderStats
+FINER: ENTRY
+mai 29, 2020 10:05:41 DA MANHÃ DataManager handleOrderStats
+FINER: RETURN
