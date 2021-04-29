@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: manager.Launcher
+Class-Path: postgresql-42.2.12.jar
+
