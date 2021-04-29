@@ -1,0 +1,2850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.GUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="635" height="752"/>
+    </constraints>
+    <properties>
+      <foreground color="-4079167"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="be3e2" binding="tabbedPaneMain">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="6968a" binding="Ordens" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Ordens"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="2e5e8" binding="tableOrdersPane">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="edce8" class="javax.swing.JTable" binding="tableOrders">
+                    <constraints/>
+                    <properties>
+                      <fillsViewportHeight value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="f96a" binding="Stocks" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title-resource-bundle="string-resources" title-key="Stocks">
+                <tooltip resource-bundle="string-resources" key="stocks-tooltip"/>
+              </tabbedpane>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <font swing-font="TabbedPane.font"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="37122" binding="panelStock" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="20">
+                <margin top="20" left="20" bottom="20" right="20"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <toolTipText value="Quantidade de peças em armazém"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="1877d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <labelFor value="25830"/>
+                      <text value="P1"/>
+                    </properties>
+                  </component>
+                  <component id="eb0d6" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <labelFor value="70224"/>
+                      <text value="P2"/>
+                    </properties>
+                  </component>
+                  <component id="e4667" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <labelFor value="47489"/>
+                      <text value="P3"/>
+                    </properties>
+                  </component>
+                  <component id="f1bf" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <labelFor value="c7621"/>
+                      <text value="P4"/>
+                    </properties>
+                  </component>
+                  <component id="25ac4" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <labelFor value="269c6"/>
+                      <text value="P5"/>
+                    </properties>
+                  </component>
+                  <component id="32f4e" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <labelFor value="80571"/>
+                      <text value="P6"/>
+                    </properties>
+                  </component>
+                  <component id="4a4b9" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <labelFor value="aad06"/>
+                      <text value="P7"/>
+                    </properties>
+                  </component>
+                  <component id="8af60" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <labelFor value="b1641"/>
+                      <text value="P8"/>
+                    </properties>
+                  </component>
+                  <component id="739eb" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <labelFor value="54ea7"/>
+                      <text value="P9"/>
+                    </properties>
+                  </component>
+                  <component id="25830" class="javax.swing.JTextField" binding="stockP1">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="80" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="20"/>
+                      <text value=""/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="70224" class="javax.swing.JTextField" binding="stockP2">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="80" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="20"/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="47489" class="javax.swing.JTextField" binding="stockP3">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="80" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="20"/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="c7621" class="javax.swing.JTextField" binding="stockP4">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="80" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="20"/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="269c6" class="javax.swing.JTextField" binding="stockP5">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="80" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="20"/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="80571" class="javax.swing.JTextField" binding="stockP6">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="80" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="20"/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="aad06" class="javax.swing.JTextField" binding="stockP7">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="80" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="20"/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="b1641" class="javax.swing.JTextField" binding="stockP8">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="80" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="20"/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                  <component id="54ea7" class="javax.swing.JTextField" binding="stockP9">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="80" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="20"/>
+                      <toolTipText value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <hspacer id="3353e">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <grid id="c420c" binding="Maquinas" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Máquinas"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="5fdd2" binding="panelMaquinas" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <tabbedpane id="32c16" binding="maquinasScroller">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="200"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="a523c" binding="C1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <tabbedpane title="Célula 1"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <scrollpane id="a80c" binding="scrollerC1">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <grid id="e37d" binding="panelC1" layout-manager="GridLayoutManager" row-count="12" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints/>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <component id="7806d" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Máquina A"/>
+                                    </properties>
+                                  </component>
+                                  <component id="6b662" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Máquina B"/>
+                                    </properties>
+                                  </component>
+                                  <component id="6d34d" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Máquina C"/>
+                                    </properties>
+                                  </component>
+                                  <component id="b4f70" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P1"/>
+                                    </properties>
+                                  </component>
+                                  <component id="2a2c5" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P2"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c750b" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P3"/>
+                                    </properties>
+                                  </component>
+                                  <component id="b1d07" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P4"/>
+                                    </properties>
+                                  </component>
+                                  <component id="55506" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P5"/>
+                                    </properties>
+                                  </component>
+                                  <component id="2807c" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P6"/>
+                                    </properties>
+                                  </component>
+                                  <component id="d9ec0" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P7"/>
+                                    </properties>
+                                  </component>
+                                  <component id="910b7" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P8"/>
+                                    </properties>
+                                  </component>
+                                  <component id="37aad" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P9"/>
+                                    </properties>
+                                  </component>
+                                  <component id="208aa" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Tempo Total "/>
+                                    </properties>
+                                  </component>
+                                  <component id="39d31" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Nº Total Peças"/>
+                                    </properties>
+                                  </component>
+                                  <component id="7f23c" class="javax.swing.JTextField" binding="TMaC1P2">
+                                    <constraints>
+                                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="91923" class="javax.swing.JTextField" binding="TMaC1P3">
+                                    <constraints>
+                                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="94c96" class="javax.swing.JTextField" binding="TMaC1P4">
+                                    <constraints>
+                                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="2436d" class="javax.swing.JTextField" binding="TMaC1P5">
+                                    <constraints>
+                                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="93c0e" class="javax.swing.JTextField" binding="TMaC1P6">
+                                    <constraints>
+                                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f102b" class="javax.swing.JTextField" binding="TMaC1P7">
+                                    <constraints>
+                                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="fe451" class="javax.swing.JTextField" binding="TMaC1P8">
+                                    <constraints>
+                                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c3732" class="javax.swing.JTextField" binding="TMaC1P9">
+                                    <constraints>
+                                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="80b6d" class="javax.swing.JTextField" binding="TMaC1PT">
+                                    <constraints>
+                                      <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="bc584" class="javax.swing.JTextField" binding="TMaC1TT">
+                                    <constraints>
+                                      <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="cfeb8" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P1"/>
+                                    </properties>
+                                  </component>
+                                  <component id="46f0b" class="javax.swing.JTextField" binding="TMaC1P1">
+                                    <constraints>
+                                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="5ecf4" class="javax.swing.JTextField" binding="TMbC1P1">
+                                    <constraints>
+                                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c1c35" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P1"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c7ef" class="javax.swing.JTextField" binding="TMcC1P1">
+                                    <constraints>
+                                      <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="53552" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P2"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c46cc" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P2"/>
+                                    </properties>
+                                  </component>
+                                  <component id="8b64f" class="javax.swing.JTextField" binding="TMbC1P2">
+                                    <constraints>
+                                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="11583" class="javax.swing.JTextField" binding="TMbC1P3">
+                                    <constraints>
+                                      <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="7043f" class="javax.swing.JTextField" binding="TMbC1P4">
+                                    <constraints>
+                                      <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="82183" class="javax.swing.JTextField" binding="TMbC1P5">
+                                    <constraints>
+                                      <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="ef74d" class="javax.swing.JTextField" binding="TMbC1P6">
+                                    <constraints>
+                                      <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="60b4c" class="javax.swing.JTextField" binding="TMbC1P7">
+                                    <constraints>
+                                      <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="bf31d" class="javax.swing.JTextField" binding="TMbC1P8">
+                                    <constraints>
+                                      <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="114bf" class="javax.swing.JTextField" binding="TMbC1P9">
+                                    <constraints>
+                                      <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="1e12c" class="javax.swing.JTextField" binding="TMbC1PT">
+                                    <constraints>
+                                      <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="ab031" class="javax.swing.JTextField" binding="TMbC1TT">
+                                    <constraints>
+                                      <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="750cd" class="javax.swing.JTextField" binding="TMcC1P2">
+                                    <constraints>
+                                      <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="3a0d8" class="javax.swing.JTextField" binding="TMcC1P3">
+                                    <constraints>
+                                      <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="40a58" class="javax.swing.JTextField" binding="TMcC1P4">
+                                    <constraints>
+                                      <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="12de4" class="javax.swing.JTextField" binding="TMcC1P5">
+                                    <constraints>
+                                      <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="46baa" class="javax.swing.JTextField" binding="TMcC1P6">
+                                    <constraints>
+                                      <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="b428d" class="javax.swing.JTextField" binding="TMcC1P7">
+                                    <constraints>
+                                      <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="98e99" class="javax.swing.JTextField" binding="TMcC1P8">
+                                    <constraints>
+                                      <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="abacf" class="javax.swing.JTextField" binding="TMcC1P9">
+                                    <constraints>
+                                      <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="36aff" class="javax.swing.JTextField" binding="TMcC1PT">
+                                    <constraints>
+                                      <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="911de" class="javax.swing.JTextField" binding="TMcC1TT">
+                                    <constraints>
+                                      <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f0110" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P3"/>
+                                    </properties>
+                                  </component>
+                                  <component id="7f136" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P3"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f821d" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P4"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c144" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P4"/>
+                                    </properties>
+                                  </component>
+                                  <component id="10979" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P5"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f9aba" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P5"/>
+                                    </properties>
+                                  </component>
+                                  <component id="6a942" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P6"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f5652" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P6"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f7ab8" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P7"/>
+                                    </properties>
+                                  </component>
+                                  <component id="7bb66" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P7"/>
+                                    </properties>
+                                  </component>
+                                  <component id="86c65" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P8"/>
+                                    </properties>
+                                  </component>
+                                  <component id="4f8e6" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P8"/>
+                                    </properties>
+                                  </component>
+                                  <component id="654e9" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P9"/>
+                                    </properties>
+                                  </component>
+                                  <component id="eeb52" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P9"/>
+                                    </properties>
+                                  </component>
+                                  <component id="7440a" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Nº Total Peças"/>
+                                    </properties>
+                                  </component>
+                                  <component id="dba11" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Nº Total Peças"/>
+                                    </properties>
+                                  </component>
+                                  <component id="74907" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Tempo Total "/>
+                                    </properties>
+                                  </component>
+                                  <component id="ad211" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Tempo Total "/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                      <grid id="710ea" binding="C2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <tabbedpane title="Célula 2"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <scrollpane id="83537" binding="scrollerC2">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <grid id="e4af9" binding="panelC2" layout-manager="GridLayoutManager" row-count="12" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints/>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <component id="a297b" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Máquina A"/>
+                                    </properties>
+                                  </component>
+                                  <component id="bca61" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Máquina B"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c50fe" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Máquina C"/>
+                                    </properties>
+                                  </component>
+                                  <component id="241b2" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P1"/>
+                                    </properties>
+                                  </component>
+                                  <component id="fef22" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P2"/>
+                                    </properties>
+                                  </component>
+                                  <component id="5c4a" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P3"/>
+                                    </properties>
+                                  </component>
+                                  <component id="1095d" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P4"/>
+                                    </properties>
+                                  </component>
+                                  <component id="930d2" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P5"/>
+                                    </properties>
+                                  </component>
+                                  <component id="94835" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P6"/>
+                                    </properties>
+                                  </component>
+                                  <component id="d8415" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P7"/>
+                                    </properties>
+                                  </component>
+                                  <component id="aec23" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P8"/>
+                                    </properties>
+                                  </component>
+                                  <component id="6e13d" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P9"/>
+                                    </properties>
+                                  </component>
+                                  <component id="ba8d7" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Tempo Total "/>
+                                    </properties>
+                                  </component>
+                                  <component id="d63e0" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Nº Total Peças"/>
+                                    </properties>
+                                  </component>
+                                  <component id="6335e" class="javax.swing.JTextField" binding="TMaC2P2">
+                                    <constraints>
+                                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="77f19" class="javax.swing.JTextField" binding="TMaC2P3">
+                                    <constraints>
+                                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="6621" class="javax.swing.JTextField" binding="TMaC2P4">
+                                    <constraints>
+                                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="b23dc" class="javax.swing.JTextField" binding="TMaC2P5">
+                                    <constraints>
+                                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="b7656" class="javax.swing.JTextField" binding="TMaC2P6">
+                                    <constraints>
+                                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="bac0d" class="javax.swing.JTextField" binding="TMaC2P7">
+                                    <constraints>
+                                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="9b547" class="javax.swing.JTextField" binding="TMaC2P8">
+                                    <constraints>
+                                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="a634b" class="javax.swing.JTextField" binding="TMaC2P9">
+                                    <constraints>
+                                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="1e113" class="javax.swing.JTextField" binding="TMaC2PT">
+                                    <constraints>
+                                      <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f2e44" class="javax.swing.JTextField" binding="TMaC2TT">
+                                    <constraints>
+                                      <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="17ff2" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P1"/>
+                                    </properties>
+                                  </component>
+                                  <component id="eca8a" class="javax.swing.JTextField" binding="TMbC2P1">
+                                    <constraints>
+                                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="eb34f" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P1"/>
+                                    </properties>
+                                  </component>
+                                  <component id="e29e4" class="javax.swing.JTextField" binding="TMcC2P1">
+                                    <constraints>
+                                      <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="7d69f" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P2"/>
+                                    </properties>
+                                  </component>
+                                  <component id="67b4" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P2"/>
+                                    </properties>
+                                  </component>
+                                  <component id="ce208" class="javax.swing.JTextField" binding="TMbC2P2">
+                                    <constraints>
+                                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="4c7f7" class="javax.swing.JTextField" binding="TMbC2P3">
+                                    <constraints>
+                                      <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="bbd6d" class="javax.swing.JTextField" binding="TMbC2P4">
+                                    <constraints>
+                                      <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="efd96" class="javax.swing.JTextField" binding="TMbC2P5">
+                                    <constraints>
+                                      <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="73a97" class="javax.swing.JTextField" binding="TMbC2P6">
+                                    <constraints>
+                                      <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="42cb6" class="javax.swing.JTextField" binding="TMbC2P7">
+                                    <constraints>
+                                      <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="7484f" class="javax.swing.JTextField" binding="TMbC2P8">
+                                    <constraints>
+                                      <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="e185f" class="javax.swing.JTextField" binding="TMbC2P9">
+                                    <constraints>
+                                      <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="7b4" class="javax.swing.JTextField" binding="TMbC2PT">
+                                    <constraints>
+                                      <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="9297" class="javax.swing.JTextField" binding="TMbC2TT">
+                                    <constraints>
+                                      <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="46d9d" class="javax.swing.JTextField" binding="TMcC2P2">
+                                    <constraints>
+                                      <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="5f1c8" class="javax.swing.JTextField" binding="TMcC2P3">
+                                    <constraints>
+                                      <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="be852" class="javax.swing.JTextField" binding="TMcC2P4">
+                                    <constraints>
+                                      <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c8ffb" class="javax.swing.JTextField" binding="TMcC2P5">
+                                    <constraints>
+                                      <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="d7032" class="javax.swing.JTextField" binding="TMcC2P6">
+                                    <constraints>
+                                      <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c54c7" class="javax.swing.JTextField" binding="TMcC2P7">
+                                    <constraints>
+                                      <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f3cc5" class="javax.swing.JTextField" binding="TMcC2P8">
+                                    <constraints>
+                                      <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="9651b" class="javax.swing.JTextField" binding="TMcC2P9">
+                                    <constraints>
+                                      <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="b12bd" class="javax.swing.JTextField" binding="TMcC2PT">
+                                    <constraints>
+                                      <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="3f0b7" class="javax.swing.JTextField" binding="TMcC2TT">
+                                    <constraints>
+                                      <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="a0688" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P3"/>
+                                    </properties>
+                                  </component>
+                                  <component id="e9802" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P3"/>
+                                    </properties>
+                                  </component>
+                                  <component id="e26cc" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P4"/>
+                                    </properties>
+                                  </component>
+                                  <component id="93227" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P4"/>
+                                    </properties>
+                                  </component>
+                                  <component id="78dc7" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P5"/>
+                                    </properties>
+                                  </component>
+                                  <component id="736a6" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P5"/>
+                                    </properties>
+                                  </component>
+                                  <component id="7dc99" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P6"/>
+                                    </properties>
+                                  </component>
+                                  <component id="45b50" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P6"/>
+                                    </properties>
+                                  </component>
+                                  <component id="263cb" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P7"/>
+                                    </properties>
+                                  </component>
+                                  <component id="9fb54" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P7"/>
+                                    </properties>
+                                  </component>
+                                  <component id="fbcd9" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P8"/>
+                                    </properties>
+                                  </component>
+                                  <component id="9ba73" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P8"/>
+                                    </properties>
+                                  </component>
+                                  <component id="d1d64" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P9"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f37c" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P9"/>
+                                    </properties>
+                                  </component>
+                                  <component id="e398f" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Nº Total Peças"/>
+                                    </properties>
+                                  </component>
+                                  <component id="28028" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Nº Total Peças"/>
+                                    </properties>
+                                  </component>
+                                  <component id="46476" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Tempo Total "/>
+                                    </properties>
+                                  </component>
+                                  <component id="d2d10" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Tempo Total "/>
+                                    </properties>
+                                  </component>
+                                  <component id="ab14d" class="javax.swing.JTextField" binding="TMaC2P1">
+                                    <constraints>
+                                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                      <grid id="595e6" binding="C3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <tabbedpane title="Célula 3"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <scrollpane id="895b3" binding="scrollerC3">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <grid id="437cd" binding="panelC3" layout-manager="GridLayoutManager" row-count="12" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints/>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <component id="ef84a" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Máquina A"/>
+                                    </properties>
+                                  </component>
+                                  <component id="bdaf7" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Máquina B"/>
+                                    </properties>
+                                  </component>
+                                  <component id="431f1" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Máquina C"/>
+                                    </properties>
+                                  </component>
+                                  <component id="486a0" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P1"/>
+                                    </properties>
+                                  </component>
+                                  <component id="24d60" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P2"/>
+                                    </properties>
+                                  </component>
+                                  <component id="5fd67" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P3"/>
+                                    </properties>
+                                  </component>
+                                  <component id="32280" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P4"/>
+                                    </properties>
+                                  </component>
+                                  <component id="dce57" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P5"/>
+                                    </properties>
+                                  </component>
+                                  <component id="1f19b" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P6"/>
+                                    </properties>
+                                  </component>
+                                  <component id="2b83f" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P7"/>
+                                    </properties>
+                                  </component>
+                                  <component id="64e16" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P8"/>
+                                    </properties>
+                                  </component>
+                                  <component id="58af1" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P9"/>
+                                    </properties>
+                                  </component>
+                                  <component id="4043e" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Tempo Total "/>
+                                    </properties>
+                                  </component>
+                                  <component id="92385" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Nº Total Peças"/>
+                                    </properties>
+                                  </component>
+                                  <component id="cd87c" class="javax.swing.JTextField" binding="TMaC3P2">
+                                    <constraints>
+                                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="66d1" class="javax.swing.JTextField" binding="TMaC3P3">
+                                    <constraints>
+                                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="6de00" class="javax.swing.JTextField" binding="TMaC3P4">
+                                    <constraints>
+                                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="63f73" class="javax.swing.JTextField" binding="TMaC3P5">
+                                    <constraints>
+                                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="bd8c4" class="javax.swing.JTextField" binding="TMaC3P6">
+                                    <constraints>
+                                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="22771" class="javax.swing.JTextField" binding="TMaC3P7">
+                                    <constraints>
+                                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="2cee7" class="javax.swing.JTextField" binding="TMaC3P8">
+                                    <constraints>
+                                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="16c0c" class="javax.swing.JTextField" binding="TMaC3P9">
+                                    <constraints>
+                                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="9fbe3" class="javax.swing.JTextField" binding="TMaC3PT">
+                                    <constraints>
+                                      <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="2999" class="javax.swing.JTextField" binding="TMaC3TT">
+                                    <constraints>
+                                      <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="4689d" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P1"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f3845" class="javax.swing.JTextField" binding="TMaC3P1">
+                                    <constraints>
+                                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="9624c" class="javax.swing.JTextField" binding="TMbC3P1">
+                                    <constraints>
+                                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="86e4f" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P1"/>
+                                    </properties>
+                                  </component>
+                                  <component id="d0b5d" class="javax.swing.JTextField" binding="TMcC3P1">
+                                    <constraints>
+                                      <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f7bfd" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P2"/>
+                                    </properties>
+                                  </component>
+                                  <component id="eb0b6" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P2"/>
+                                    </properties>
+                                  </component>
+                                  <component id="23d90" class="javax.swing.JTextField" binding="TMbC3P2">
+                                    <constraints>
+                                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="c0f9e" class="javax.swing.JTextField" binding="TMbC3P3">
+                                    <constraints>
+                                      <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="2f3c9" class="javax.swing.JTextField" binding="TMbC3P4">
+                                    <constraints>
+                                      <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f302d" class="javax.swing.JTextField" binding="TMbC3P5">
+                                    <constraints>
+                                      <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="ce805" class="javax.swing.JTextField" binding="TMbC3P6">
+                                    <constraints>
+                                      <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="80a8e" class="javax.swing.JTextField" binding="TMbC3P7">
+                                    <constraints>
+                                      <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="859cf" class="javax.swing.JTextField" binding="TMbC3P8">
+                                    <constraints>
+                                      <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="33d88" class="javax.swing.JTextField" binding="TMbC3P9">
+                                    <constraints>
+                                      <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="d34bc" class="javax.swing.JTextField" binding="TMbC3PT">
+                                    <constraints>
+                                      <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="54f8e" class="javax.swing.JTextField" binding="TMbC3TT">
+                                    <constraints>
+                                      <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="93ab0" class="javax.swing.JTextField" binding="TMcC3P2">
+                                    <constraints>
+                                      <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="62c6e" class="javax.swing.JTextField" binding="TMcC3P3">
+                                    <constraints>
+                                      <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="28c20" class="javax.swing.JTextField" binding="TMcC3P4">
+                                    <constraints>
+                                      <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="cf4c6" class="javax.swing.JTextField" binding="TMcC3P5">
+                                    <constraints>
+                                      <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="b89c9" class="javax.swing.JTextField" binding="TMcC3P6">
+                                    <constraints>
+                                      <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="125fe" class="javax.swing.JTextField" binding="TMcC3P7">
+                                    <constraints>
+                                      <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="1f534" class="javax.swing.JTextField" binding="TMcC3P8">
+                                    <constraints>
+                                      <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="e44e8" class="javax.swing.JTextField" binding="TMcC3P9">
+                                    <constraints>
+                                      <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="e3bbf" class="javax.swing.JTextField" binding="TMcC3PT">
+                                    <constraints>
+                                      <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="b6f43" class="javax.swing.JTextField" binding="TMcC3TT">
+                                    <constraints>
+                                      <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <editable value="false"/>
+                                    </properties>
+                                  </component>
+                                  <component id="67e4b" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P3"/>
+                                    </properties>
+                                  </component>
+                                  <component id="bac5f" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P3"/>
+                                    </properties>
+                                  </component>
+                                  <component id="cf29d" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P4"/>
+                                    </properties>
+                                  </component>
+                                  <component id="fe793" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P4"/>
+                                    </properties>
+                                  </component>
+                                  <component id="4ae49" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P5"/>
+                                    </properties>
+                                  </component>
+                                  <component id="bd3e3" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P5"/>
+                                    </properties>
+                                  </component>
+                                  <component id="10a88" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P6"/>
+                                    </properties>
+                                  </component>
+                                  <component id="572f0" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P6"/>
+                                    </properties>
+                                  </component>
+                                  <component id="91f98" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P7"/>
+                                    </properties>
+                                  </component>
+                                  <component id="fbeb4" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P7"/>
+                                    </properties>
+                                  </component>
+                                  <component id="51a3d" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P8"/>
+                                    </properties>
+                                  </component>
+                                  <component id="e689a" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P8"/>
+                                    </properties>
+                                  </component>
+                                  <component id="169ee" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P9"/>
+                                    </properties>
+                                  </component>
+                                  <component id="76687" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="P9"/>
+                                    </properties>
+                                  </component>
+                                  <component id="33e66" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Nº Total Peças"/>
+                                    </properties>
+                                  </component>
+                                  <component id="201e5" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Nº Total Peças"/>
+                                    </properties>
+                                  </component>
+                                  <component id="20405" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Tempo Total "/>
+                                    </properties>
+                                  </component>
+                                  <component id="7734f" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="Tempo Total "/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                    </children>
+                  </tabbedpane>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="b9bb" binding="Zona_Descarga" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Zonas de descarga"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="bd265" binding="descargasScroller">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="56bc4" binding="panelDescargas" layout-manager="GridLayoutManager" row-count="11" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="a59fd" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Zona de descarga 1"/>
+                        </properties>
+                      </component>
+                      <component id="6ca25" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Zona de descarga 3"/>
+                        </properties>
+                      </component>
+                      <component id="61579" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Zona de descarga 2"/>
+                        </properties>
+                      </component>
+                      <component id="cfdd5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P1"/>
+                        </properties>
+                      </component>
+                      <component id="f3e0c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P2"/>
+                        </properties>
+                      </component>
+                      <component id="e69f4" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P3"/>
+                        </properties>
+                      </component>
+                      <component id="2dddf" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P4"/>
+                        </properties>
+                      </component>
+                      <component id="93ec3" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P5"/>
+                        </properties>
+                      </component>
+                      <component id="d0744" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P6"/>
+                        </properties>
+                      </component>
+                      <component id="4812b" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P7"/>
+                        </properties>
+                      </component>
+                      <component id="12f5c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P8"/>
+                        </properties>
+                      </component>
+                      <component id="82fcb" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P9"/>
+                        </properties>
+                      </component>
+                      <component id="5aa3a" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Nº total"/>
+                        </properties>
+                      </component>
+                      <component id="7e7c2" class="javax.swing.JTextField" binding="descarga1P1">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="b2b9a" class="javax.swing.JTextField" binding="descarga1P2">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="4459f" class="javax.swing.JTextField" binding="descarga1P3">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="50de7" class="javax.swing.JTextField" binding="descarga1P4">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="48762" class="javax.swing.JTextField" binding="descarga1P5">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="4e323" class="javax.swing.JTextField" binding="descarga1P6">
+                        <constraints>
+                          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="700b3" class="javax.swing.JTextField" binding="descarga1P7">
+                        <constraints>
+                          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="553a5" class="javax.swing.JTextField" binding="descarga1P8">
+                        <constraints>
+                          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="d3151" class="javax.swing.JTextField" binding="descarga1P9">
+                        <constraints>
+                          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="f9fb2" class="javax.swing.JTextField" binding="descarga1PT">
+                        <constraints>
+                          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="7b843" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P1"/>
+                        </properties>
+                      </component>
+                      <component id="a9492" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P1"/>
+                        </properties>
+                      </component>
+                      <component id="ccd26" class="javax.swing.JTextField" binding="descarga2P1">
+                        <constraints>
+                          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="fc7d2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P2"/>
+                        </properties>
+                      </component>
+                      <component id="866c1" class="javax.swing.JTextField" binding="descarga2P2">
+                        <constraints>
+                          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="ff68" class="javax.swing.JTextField" binding="descarga2P3">
+                        <constraints>
+                          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="e7fcc" class="javax.swing.JTextField" binding="descarga2P4">
+                        <constraints>
+                          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="bd6d9" class="javax.swing.JTextField" binding="descarga2P5">
+                        <constraints>
+                          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="506c2" class="javax.swing.JTextField" binding="descarga2P6">
+                        <constraints>
+                          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="97e2" class="javax.swing.JTextField" binding="descarga2P7">
+                        <constraints>
+                          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="eec71" class="javax.swing.JTextField" binding="descarga2P8">
+                        <constraints>
+                          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="2f115" class="javax.swing.JTextField" binding="descarga2P9">
+                        <constraints>
+                          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="ec4b0" class="javax.swing.JTextField" binding="descarga2PT">
+                        <constraints>
+                          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="6fcc2" class="javax.swing.JTextField" binding="descarga3P1">
+                        <constraints>
+                          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="24e78" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P2"/>
+                        </properties>
+                      </component>
+                      <component id="d718a" class="javax.swing.JTextField" binding="descarga3P2">
+                        <constraints>
+                          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="8de7e" class="javax.swing.JTextField" binding="descarga3P3">
+                        <constraints>
+                          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="7b47b" class="javax.swing.JTextField" binding="descarga3P4">
+                        <constraints>
+                          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="ac593" class="javax.swing.JTextField" binding="descarga3P5">
+                        <constraints>
+                          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="87c8a" class="javax.swing.JTextField" binding="descarga3P6">
+                        <constraints>
+                          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="d2507" class="javax.swing.JTextField" binding="descarga3P7">
+                        <constraints>
+                          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="8ff96" class="javax.swing.JTextField" binding="descarga3P8">
+                        <constraints>
+                          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="72f8e" class="javax.swing.JTextField" binding="descarga3P9">
+                        <constraints>
+                          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="3a7de" class="javax.swing.JTextField" binding="descarga3PT">
+                        <constraints>
+                          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                      <component id="a088e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P3"/>
+                        </properties>
+                      </component>
+                      <component id="7dedc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P3"/>
+                        </properties>
+                      </component>
+                      <component id="522e7" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P4"/>
+                        </properties>
+                      </component>
+                      <component id="43b35" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P4"/>
+                        </properties>
+                      </component>
+                      <component id="ca8dc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P5"/>
+                        </properties>
+                      </component>
+                      <component id="853db" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P5"/>
+                        </properties>
+                      </component>
+                      <component id="ec449" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P6"/>
+                        </properties>
+                      </component>
+                      <component id="399db" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P6"/>
+                        </properties>
+                      </component>
+                      <component id="76763" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P7"/>
+                        </properties>
+                      </component>
+                      <component id="d40a0" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P7"/>
+                        </properties>
+                      </component>
+                      <component id="fcb71" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P8"/>
+                        </properties>
+                      </component>
+                      <component id="9ff0" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P8"/>
+                        </properties>
+                      </component>
+                      <component id="6ae9e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P9"/>
+                        </properties>
+                      </component>
+                      <component id="aa7d2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="P9"/>
+                        </properties>
+                      </component>
+                      <component id="3ffe9" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Nº total "/>
+                        </properties>
+                      </component>
+                      <component id="5239f" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Nº total"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

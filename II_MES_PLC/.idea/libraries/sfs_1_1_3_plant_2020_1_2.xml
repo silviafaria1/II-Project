@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sfs-1.1.3_plant-2020_1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/sfs-1.1.3_plant-2020_1.2/sfs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/sfs-1.1.3_plant-2020_1.2/jamod.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,129 @@
+[Servers]
+4\Name=OPCUAServer@LAPTOP-ACGD78ML
+4\Connected=true
+4\ProjectServerId=4
+4\ServerUrl=opc.tcp://LAPTOP-ACGD78ML:4840
+4\Server.ApplicationUri=urn:LAPTOP-ACGD78ML:3S%20-%20Smart%20Software%20Solutions%20GmbH:CODESYS%20Control%20Win%20V3%20x64:OPCUA:Server
+4\Server.ProductUri=urn:3S%20-%20Smart%20Software%20Solutions%20GmbH:CODESYS%20Control%20Win%20V3%20x64:OPCUA:Server
+4\Server.ApplicationNameLocale=en-Us
+4\Server.ApplicationNameText=OPCUAServer@LAPTOP-ACGD78ML
+4\Server.ApplicationType=0
+4\Server.GatewayServerUri=
+4\Server.DiscoveryProfileUri=
+4\Server.NoOfDiscoveryUrls=1
+4\Server.DiscoveryUrl0=opc.tcp://LAPTOP-ACGD78ML:4840
+4\ServerCertificate=@ByteArray()
+4\MessageSecurityMode=1
+4\SecurityPolicy=http://opcfoundation.org/UA/SecurityPolicy#None
+4\NoOfUserIdentityTokens=1
+4\UserIdentityToken0.PolicyId=Anonymous
+4\UserIdentityToken0.TokenType=0
+4\UserIdentityToken0.IssuedTokenType=
+4\UserIdentityToken0.IssuerEndpointUrl=
+4\UserIdentityToken0.SecurityPolicyUri=
+4\TransportProfileUri=http://opcfoundation.org/UA-Profile/Transport/uatcp-uasc-uabinary
+4\SecurityLevel=0
+4\DisplayName=OPCUAServer@LAPTOP-ACGD78ML
+4\ReverseConnect=false
+4\ClientEndpointUrl=
+4\UserTokenType=0
+4\SessionName=urn:LAPTOP-ACGD78ML:UnifiedAutomation:UaExpert
+4\DiscoveryHost=
+4\UserName=
+4\StorePassword=false
+4\CertificateFile=
+4\PrivateKeyFile=
+4\Namespaces\0=http://opcfoundation.org/UA/
+4\Namespaces\1=urn:LAPTOP-ACGD78ML:3S%20-%20Smart%20Software%20Solutions%20GmbH:CODESYS%20Control%20Win%20V3%20x64:OPCUA:Server
+4\Namespaces\2=http://opcfoundation.org/UA/DI/
+4\Namespaces\3=http://PLCopen.org/OpcUa/IEC61131-3/
+4\Namespaces\4=CODESYSSPV3/3S/IecVarAccess
+
+[Documents]
+Data%20Access%20View\DocumentType=Data Access View
+Data%20Access%20View\DocumentSettings\headerState=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x3T\0\0\0\t\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x84\0\0\0\0\0\0\0\x2\0\0\0\x34\0\0\0\x1\0\0\0\0\0\0\x3 \0\0\0\b\0\0\0\0)
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\publishingInterval=500
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\lifetimeCount=2400
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\maxKeepAliveCount=10
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\maxNotificationsPerPublish=0
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\priority=0
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\publishingEnabled=true
+Data%20Access%20View\DocumentSettings\Items\004\001\DisplayName=StorageInPiece
+Data%20Access%20View\DocumentSettings\Items\004\001\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.StorageInPiece"
+Data%20Access%20View\DocumentSettings\Items\004\001\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\001\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\001\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\001\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\001\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\004\003\DisplayName=StorageInUse
+Data%20Access%20View\DocumentSettings\Items\004\003\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.StorageInUse"
+Data%20Access%20View\DocumentSettings\Items\004\003\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\003\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\003\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\003\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\003\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\004\005\DisplayName=caminhoI
+Data%20Access%20View\DocumentSettings\Items\004\005\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.caminhoI"
+Data%20Access%20View\DocumentSettings\Items\004\005\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\005\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\005\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\005\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\005\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\004\007\DisplayName=newOrder
+Data%20Access%20View\DocumentSettings\Items\004\007\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.newOrder"
+Data%20Access%20View\DocumentSettings\Items\004\007\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\007\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\007\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\007\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\007\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\004\009\DisplayName=orderNumberI
+Data%20Access%20View\DocumentSettings\Items\004\009\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.orderNumberI"
+Data%20Access%20View\DocumentSettings\Items\004\009\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\009\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\009\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\009\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\009\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\004\011\DisplayName=orderNumberOut
+Data%20Access%20View\DocumentSettings\Items\004\011\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.orderNumberOut"
+Data%20Access%20View\DocumentSettings\Items\004\011\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\011\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\011\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\011\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\011\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\004\013\DisplayName=orderNumberReadI
+Data%20Access%20View\DocumentSettings\Items\004\013\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.orderNumberReadI"
+Data%20Access%20View\DocumentSettings\Items\004\013\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\013\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\013\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\013\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\013\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\004\015\DisplayName=pieceType
+Data%20Access%20View\DocumentSettings\Items\004\015\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.pieceType"
+Data%20Access%20View\DocumentSettings\Items\004\015\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\015\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\015\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\015\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\015\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\004\017\DisplayName=tempoI
+Data%20Access%20View\DocumentSettings\Items\004\017\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.tempoI"
+Data%20Access%20View\DocumentSettings\Items\004\017\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\017\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\017\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\017\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\017\MonitoringParameters\SamplingInterval=300
+Data%20Access%20View\DocumentSettings\Items\004\019\DisplayName=toolI
+Data%20Access%20View\DocumentSettings\Items\004\019\NodeId="ns=4;s=|var|CODESYS Control Win V3 x64.Application.PLANTA.toolI"
+Data%20Access%20View\DocumentSettings\Items\004\019\Status=4
+Data%20Access%20View\DocumentSettings\Items\004\019\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\004\019\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\004\019\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\004\019\MonitoringParameters\SamplingInterval=300
+
+[Attribute%20Plugin]
+Act_OnOff_Checked=true
+
+[Reference%20Plugin]
+Act_OnOff_Checked=true
+Act_ShowHierarchical_Checked=true
+Act_ShowNonHierarchical_Checked=true
+Cmb_BrowseDirection_State=0

@@ -1,0 +1,3 @@
+https://dentrassi.de/2017/09/14/creating-opc-ua-solutions-eclipse-milo/
+https://dentrassi.de/2019/07/06/eclipse-milo-0-3-updated-examples/
+https://github.com/ctron/milo-ece2017

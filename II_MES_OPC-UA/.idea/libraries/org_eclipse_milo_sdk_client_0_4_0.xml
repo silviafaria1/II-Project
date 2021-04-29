@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="org.eclipse.milo:sdk-client:0.4.0" type="repository">
+    <properties maven-id="org.eclipse.milo:sdk-client:0.4.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/main/sdk-client-0.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/stack-client-0.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/stack-core-0.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bcprov-jdk15on-1.61.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bcpkix-jdk15on-1.61.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/guava-26.0-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/netty-codec-4.1.45.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/netty-handler-4.1.45.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/jakarta.activation-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/jaxb-runtime-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/jakarta.xml.bind-api-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/txw2-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/istack-commons-runtime-3.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/stax-ex-1.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/FastInfoset-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/jakarta.activation-api-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/netty-channel-fsm-0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/strict-machine-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/netty-codec-http-4.1.45.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/netty-common-4.1.45.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/netty-buffer-4.1.45.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/netty-transport-4.1.45.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/netty-resolver-4.1.45.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/sdk-core-0.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

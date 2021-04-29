@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Orders>
+    <Order Id="001" OrderType="Transform" State="Processing"
+           EntryHour="22-05-2020 19:12:34" StartTime="22-05-2020 19:23:45"
+           EndTime="" Folga="323" Nbeing="4" Nfinished="1" Npending="5"/>
+    <Order Id="003" OrderType="Transform" State="Waiting"
+           EntryHour="22-05-2020 19:12:34" StartTime="22-05-2020 19:23:45"
+           EndTime="" Folga="359" Nbeing="0" Nfinished="0" Npending="10"/>
+    <Order Id="002" OrderType="Transform" State="Finished"
+           EntryHour="22-05-2020 19:12:34" StartTime="22-05-2020 19:23:45"
+           EndTime="" Folga="167" Nbeing="0" Nfinished="10" Npending="0"/>
+    <Order Id="003" OrderType="Transform" State="Finished"
+           EntryHour="22-05-2020 19:12:34" StartTime="22-05-2020 19:23:45"
+           EndTime="" Folga="359" Nbeing="0" Nfinished="10" Npending="0"/>
+</Orders>

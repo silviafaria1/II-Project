@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="II_MES_Data_Manager:jar">
+    <output-path>$PROJECT_DIR$/build/jar</output-path>
+    <root id="root">
+      <element id="archive" name="II_MES_Data_Manager.jar">
+        <element id="module-output" name="II_MES_Data_Manager" />
+      </element>
+      <element id="library" level="project" name="postgresql-42.2.12" />
+    </root>
+  </artifact>
+</component>

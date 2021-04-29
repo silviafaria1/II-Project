@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="II_MES_Request_Handler:jar">
+    <output-path>$PROJECT_DIR$/build/jar/</output-path>
+    <root id="root">
+      <element id="archive" name="II_MES_Request_Handler.jar">
+        <element id="module-output" name="II_MES_Request_Handler" />
+      </element>
+    </root>
+  </artifact>
+</component>

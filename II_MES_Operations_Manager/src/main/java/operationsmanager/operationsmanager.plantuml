@@ -1,0 +1,375 @@
+@startuml
+
+title __OPERATIONSMANAGER's Class Diagram__\n
+
+  namespace operationsmanager {
+    class operationsmanager.Conveyor {
+        - id : int
+        - x : int
+        - y : int
+        + Conveyor()
+        + getID()
+        + getX()
+        + getY()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.DataManagerClient {
+        - PORT : int
+        - fromManager : BlockingQueue<String>
+        - socket : DatagramSocket
+        + DataManagerClient()
+        + run()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.DeliveryConv {
+        - conveyors : Vector<Conveyor>
+        {static} - single_instance : DeliveryConv
+        - sliderLocation : Vector<Conveyor>
+        + getConveyors()
+        {static} + getInstance()
+        + getSlider()
+        - DeliveryConv()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.Launcher {
+        {static} + main()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.MyComparator {
+        + compare()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.OpcuaClient {
+        - PORT : int
+        - fromManager : BlockingQueue<String>
+        - socket : DatagramSocket
+        + OpcuaClient()
+        + run()
+        - sendToOPCUA()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.OperationsManager {
+        {static} + TRANSFORM : String
+        {static} + UNLOAD : String
+        {static} + receivedPending : boolean
+        {static} + receivedWaiting : boolean
+        {static} + toDataManager : BlockingQueue<String>
+        {static} - destination : String
+        {static} - from : String
+        - loputestination : Map<String, Integer>
+        {static} - max : int
+        {static} - orderNumber : int
+        - pieceTypes : Map<String, Integer>
+        {static} - quantity : int
+        {static} - quantity1 : int
+        - queue : BlockingQueue<String>
+        {static} - tipoo : String
+        {static} - to : String
+        {static} - type : String
+        + OperationsManager()
+        {static} + askForWaitingQueue()
+        + run()
+        {static} + sendAvailabilityRequestToDM()
+        - getAckMessage()
+        - insertOnWaiting()
+        - sendStatisticsToDM()
+        {static} - visitChildNodes()
+        - visitChildNodesQueues()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.OrderMes {
+        - deadline : int
+        - entryHour : LocalDateTime
+        - id : int
+        - maxFinishingTime : LocalDateTime
+        - number : int
+        - path : Vector<Integer>
+        - px : int
+        - py : int
+        - totalQuantity : int
+        - type : String
+        + OrderMes()
+        + getDeadline()
+        + getEntryHour()
+        + getId()
+        + getMaxFinishingTime()
+        + getNumber()
+        + getPath()
+        + getPx()
+        + getPy()
+        + getTotalQuantity()
+        + getType()
+        + setPath()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.OrderQueueMes {
+        - queue : PriorityBlockingQueue<OrderMes>
+        + OrderQueueMes()
+        + getCopy()
+        + getIOrder()
+        + getSize()
+        + hasOrders()
+        + insertOrder()
+        + iterator()
+        + removeOrder()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.PathCalculator {
+        + LOAD : String
+        {static} + MACHA : int
+        {static} + MACHB : int
+        {static} + MACHC : int
+        + TRANSFORM : String
+        + UNLOAD : String
+        - fromLoadDownToStorage : Vector<Conveyor>
+        - fromLoadUpToStorage : Vector<Conveyor>
+        {static} - single_instance : PathCalculator
+        - toDelivery : Vector<Vector<Conveyor>>
+        - toMachineA : Vector<Vector<Conveyor>>
+        - toMachineB : Vector<Vector<Conveyor>>
+        - toMachineC : Vector<Vector<Conveyor>>
+        {static} + getInstance()
+        + getPath()
+        - PathCalculator()
+        - findMachineIds()
+        - getDeliveryPath()
+        - getLoadPath()
+        - getPathIDs()
+        - getTransformPath()
+        - joinMachinePaths()
+        - setFromLoadDownToStorage()
+        - setFromLoadUpToStorage()
+        - setToDelivery()
+        - setTransform()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.SendOrders {
+        {static} + TRANSFORM : String
+        {static} + TRANSFORM1 : int
+        {static} + TRANSFORM2 : int
+        {static} + TRANSFORM3 : int
+        {static} + UNLOAD : String
+        + machinesAvailable : Vector<Boolean>
+        - fromServer : BlockingQueue<String>
+        - machine1 : BlockingQueue<Boolean>
+        - machine2 : BlockingQueue<Boolean>
+        - machine3 : BlockingQueue<Boolean>
+        - stores : BlockingQueue<Integer>
+        - toDataManager : BlockingQueue<String>
+        - toOpcua : BlockingQueue<String>
+        - unloadZone : BlockingQueue<Boolean>
+        + SendOrders()
+        + run()
+        - getFastestAvailableMachine()
+        - getavailabilityUZ()
+        - hasStock()
+        - machineFree()
+        - sendToDataManager()
+        - sendToOPCUA()
+        - sendTransform()
+        - sendUnload()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.Server {
+        + machineInfo1 : Boolean
+        + machineInfo2 : Boolean
+        + machineInfo3 : Boolean
+        + status : String
+        + unloadZoneF : Boolean
+        + waitForDMdata : Boolean
+        {static} - buffLength : int
+        - buffer : byte[]
+        - machine1 : BlockingQueue<Boolean>
+        - machine2 : BlockingQueue<Boolean>
+        - machine3 : BlockingQueue<Boolean>
+        - packet : DatagramPacket
+        {static} - quantity2 : int
+        - queue : BlockingQueue<String>
+        - socket : DatagramSocket
+        - stores : BlockingQueue<Integer>
+        - toSendOrders : BlockingQueue<String>
+        - unloadZone : BlockingQueue<Boolean>
+        + run()
+        {static} + visitRequestStoresChild()
+        ~ Server()
+        - getMachine()
+        - getStatus()
+        - getUnloadZone()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.ShopFloor {
+        {static} - single_instance : ShopFloor
+        {static} + getInstance()
+        # ShopFloor()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.StaticPath {
+        - path : Vector<Conveyor>
+        {static} - single_instance : StaticPath
+        + getDeliveryPath()
+        {static} + getInstance()
+        + getStorageInDownPath()
+        + getTransformationPath()
+        ~ getStorageInUpPath()
+        - getTransformationConv()
+        - goDown()
+        - gotoTargetDown()
+        - gotoTargetUp()
+        - gotoTransformation()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.StorageInConv {
+        - conveyors : Vector<Conveyor>
+        {static} - single_instance : StorageInConv
+        + getConveyors()
+        {static} + getInstance()
+        - StorageInConv()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.StorageOutConv {
+        - conveyors : Vector<Conveyor>
+        {static} - single_instance : StorageOutConv
+        + getConveyors()
+        {static} + getInstance()
+        - StorageOutConv()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.Task {
+        {static} + IGNORE : int
+        {static} + TRANSFORM : String
+        {static} + UNLOAD : String
+        - entryHour : LocalDateTime
+        - id : int
+        - maxFinishingTime : LocalDateTime
+        {static} - single_instance : Task
+        + createTransformOrder()
+        + createUnloadOrder()
+        + getCurrent()
+        {static} + getInstance()
+        + insertCurrent()
+        - Task()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.TransformConv {
+        - conveyors : Vector<Conveyor>
+        - machineLocation : Vector<Conveyor>
+        + getConveyors()
+        {static} + getInstance()
+        + getMachineLocation()
+        - TransformConv()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.TransformationTable {
+        {static} - MACHA : int
+        {static} - MACHB : int
+        {static} - MACHC : int
+        {static} - TRANSFORMATIONS : int
+        {static} - single_instance : TransformationTable
+        - transformationMatrix : int[][]
+        - transformationSequences : Vector<Vector<Integer>>
+        + directTransformation()
+        + findSequenceOfTransformation()
+        {static} + getInstance()
+        + getMachineSequence()
+        + getPossibleSequences()
+        + getTools()
+        + getTransformationTimes()
+        - TransformationTable()
+        - findMachineSequence()
+        - getFastestSequence()
+        - getMachine()
+        - getOriginWorkPiece()
+        - getTool()
+        - getTotalProcessingTime()
+        - getTransformationTime()
+    }
+  }
+  
+
+  namespace operationsmanager {
+    class operationsmanager.XMLwriter {
+        + createTransformOrderXML()
+        + createUnloadOrderXML()
+    }
+  }
+  
+
+  operationsmanager.MyComparator .up.|> java.util.Comparator
+  operationsmanager.OperationsManager o-- operationsmanager.Task : task
+  operationsmanager.OrderMes o-- operationsmanager.PathCalculator : pathCalculator
+  operationsmanager.PathCalculator o-- operationsmanager.StaticPath : staticPath
+  operationsmanager.SendOrders o-- operationsmanager.Task : task
+  operationsmanager.SendOrders o-- operationsmanager.TransformationTable : transformationTable
+  operationsmanager.ShopFloor o-- operationsmanager.DeliveryConv : deliveryConv
+  operationsmanager.ShopFloor o-- operationsmanager.StorageInConv : storageInConv
+  operationsmanager.ShopFloor o-- operationsmanager.StorageOutConv : storageOutConv
+  operationsmanager.ShopFloor o-- operationsmanager.TransformConv : transformConv1
+  operationsmanager.ShopFloor o-- operationsmanager.TransformConv : transformConv2
+  operationsmanager.ShopFloor o-- operationsmanager.TransformConv : transformConv3
+  operationsmanager.StaticPath -up-|> operationsmanager.ShopFloor
+  operationsmanager.Task o-- operationsmanager.OrderQueueMes : current
+  operationsmanager.Task o-- operationsmanager.OrderMes : order
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

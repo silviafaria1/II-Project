@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="II_MES_OPC-UA:jar">
+    <output-path>$PROJECT_DIR$/build/jar/</output-path>
+    <root id="root">
+      <element id="archive" name="II_MES_OPC-UA.jar">
+        <element id="module-output" name="II_MES_OPC-UA" />
+      </element>
+      <element id="library" level="project" name="org.eclipse.milo:sdk-client:0.4.0" />
+    </root>
+  </artifact>
+</component>
